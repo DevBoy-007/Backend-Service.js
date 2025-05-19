@@ -58,7 +58,7 @@ module.exports = {
       };
     } catch (error) {
       return {
-        error: "service",
+        error: error.message ,
       };
     }
   },
@@ -75,7 +75,7 @@ module.exports = {
       };
     } catch (error) {
       return {
-        error: "service",
+        error: error.message,
       };
     }
   },
